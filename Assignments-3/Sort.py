@@ -16,8 +16,8 @@ for i in range(1, len(user_list)):
         break
 
 if is_sorted == True:
-    print("Your list is sorted from smallest to largest.")
+    print("Your list is sorted from smallest to largest✅")
 else:
-    print("Your list is not sorted.")
+    print("Your list is not sorted❌")
 
 print(user_list)
