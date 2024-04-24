@@ -52,3 +52,68 @@ class Fraction:
     def denominator_check(self):
         if  self.denominators == 0:
             print("Your denominator is invalid, so other result will be showed like (1 / 0)")
+
+print("Welcome to the Fraction program")
+while True: 
+    print("1: For -show- your Fraction press -1-") 
+    print("2: For -sum- two Fraction press -2-")  
+    print("3: For -subtract- two Fraction press -3-")
+    print("4: For -multiply- two Fraction press -4-")
+    print("5: For -divide- two Fraction press -5-")
+    print("6: For -get decimal- a Fraction press -6-")
+    print("0: For exit from program press -0-")    
+    user_input = int(input("Pleas enter your request: "))
+    if user_input == 1:
+        numerator = int(input("Enter the -numerator section- of your number: "))
+        denominator = int(input("Enter the -denominator section- of your number: "))
+        num = Fraction(numerator , denominator)
+        num.show()
+
+    if user_input == 2:
+        numerator_1 = int(input("Enter the -numerator section- of your First number: "))
+        denominator_1 = int(input("Enter the -denominator section- of your First number: "))
+        numerator_2 = int(input("Enter the -numerator section- of your Second number: "))
+        denominator_2 = int(input("Enter the -denominator section- of your Second number: "))
+        num_1 = Fraction(numerator_1 , denominator_1)
+        num_2 = Fraction(numerator_2 , denominator_2)
+        result = num_1.sum(num_2)
+        result.show()
+
+    if user_input == 3:
+        numerator_1 = int(input("Enter the -numerator section- of your First number: "))
+        denominator_1 = int(input("Enter the -denominator section- of your First number: "))
+        numerator_2 = int(input("Enter the -numerator section- of your Second number: "))
+        denominator_2 = int(input("Enter the -denominator section- of your Second number: "))
+        num_1 = Fraction(numerator_1 , denominator_1)
+        num_2 = Fraction(numerator_2 , denominator_2)
+        result = num_1.subtract(num_2)
+        result.show()
+
+    if user_input == 4:
+        numerator_1 = int(input("Enter the -numerator section- of your First number: "))
+        denominator_1 = int(input("Enter the -denominator section- of your First number: "))
+        numerator_2 = int(input("Enter the -numerator section- of your Second number: "))
+        denominator_2 = int(input("Enter the -denominator section- of your Second number: "))
+        num_1 = Fraction(numerator_1 , denominator_1)
+        num_2 = Fraction(numerator_2 , denominator_2)
+        result = num_1.multiply(num_2)
+        result.show()
+
+    if user_input == 5:
+        numerator_1 = int(input("Enter the -numerator section- of your First number: "))
+        denominator_1 = int(input("Enter the -denominator section- of your First number: "))
+        numerator_2 = int(input("Enter the -numerator section- of your Second number: "))
+        denominator_2 = int(input("Enter the -denominator section- of your Second number: "))
+        num_1 = Fraction(numerator_1 , denominator_1)
+        num_2 = Fraction(numerator_2 , denominator_2)
+        result = num_1.divide(num_2)
+        result.show()
+
+    if user_input == 6:
+        numerator = int(input("Enter the -numerator section- of your number: "))
+        denominator = int(input("Enter the -denominator section- of your number: "))
+        num = Fraction(numerator , denominator)
+        num.to_decimal()
+
+    if user_input == 0:
+        break
