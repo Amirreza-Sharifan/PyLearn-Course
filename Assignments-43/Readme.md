@@ -28,23 +28,23 @@ the results of this project have prepared blow:
 -
 | Nemo 1(train) | Nemo 2(test) | Dory 1(train) | Dory 2(test) |
 |---------|---------|---------|---------|
-| ![Image 1](nemo0.jpg) | ![Image 2](nemo3.jpg) | <img src="Dory-Flickr-Image-scaled.jpg" width="300" /> | ![Image 4](images.jpg) ||---------|---------|---------|---------|
-| ![Image 1](1.png) | ![Image 2](2.png) | <img src="3.png" width="500" /> | ![Image 4](4.PNG) ||---------|---------|---------|---------|
-| ![Image 1](5.png) | ![Image 2](6.png) | <img src="7.png" width="500" /> | ![Image 4](8.PNG) |
+| ![Image 1](Picture/nemo0.jpg) | ![Image 2](Picture/nemo3.jpg) | <img src="Picture/Dory-Flickr-Image-scaled.jpg" width="300" /> | ![Image 4](Picture/images.jpg) ||---------|---------|---------|---------|
+| ![Image 1](Picture/1.png) | ![Image 2](Picture/2.png) | <img src="Picture/3.png" width="500" /> | ![Image 4](Picture/4.PNG) ||---------|---------|---------|---------|
+| ![Image 1](Picture/5.png) | ![Image 2](Picture/6.png) | <img src="Picture/7.png" width="500" /> | ![Image 4](Picture/8.PNG) |
 
 ## 2-Iris data set
 IN this project we calculate and predict of Iris data set from ``skite-learn`` and the algorithm of machine learning that we use is KNN moreover, the value of K are 3,5 and 7. At the below we can see the confusion matrix and the score of each algorithm.
 
 | K | Accuracy of ``Amirreza`` (%) | Accuracy of ``Skite-learn`` (%) | canfusion matrix |
 |---------|---------|---------|---------|
-|3 |[97]|[97]|<img src="9.png" width="300" />|
-|5 |[100]|[100]|<img src="10.png" width="300" />|
-|7 |[100]|[100]|<img src="11.png" width="300" />|
+|3 |[90]|[90]|<img src="Picture/9.png" width="300" />|
+|5 |[93]|[93]|<img src="Picture/10.png" width="300" />|
+|7 |[96]|[96]|<img src="Picture/11.png" width="300" />|
 ## 3-Breast Cancer data set
 IN this project we calculate and predict of Brest Cancer data set from ``skite-learn`` and the algorithm of machine learning that we use is KNN moreover, the value of K are 3,5 and 7. At the below we can see the confusion matrix and the score of each algorithm.
 
 | K | Accuracy of ``Amirreza`` (%) | Accuracy of ``Skite-learn`` (%) | canfusion matrix |
 |---------|---------|---------|---------|
-|3 |[90]|[90]|<img src="12.png" width="300" />|
-|5 |[90]|[90]|<img src="13.png" width="300" />|
-|7 |[90]|[90]|<img src="14.png" width="300" />|
+|3 |[94]|[94]|<img src="Picture/12.png" width="300" />|
+|5 |[95]|[95]|<img src="Picture/13.png" width="300" />|
+|7 |[95]|[95]|<img src="Picture/14.png" width="300" />|
